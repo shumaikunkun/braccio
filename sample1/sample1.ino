@@ -13,5 +13,6 @@ void setup(){
 }
 
 void loop(){
-  Braccio.ServoMovement(20, 90,90,90,90,90,73);
+  Braccio.ServoMovement(20,0,15,0,0,0,10);
+  //Braccio.ServoMovement(20,180,165,180,180,180,73);
 }
